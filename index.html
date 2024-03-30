@@ -17,56 +17,128 @@
         <div class="navbar">
             <a href="./index.html"><h1>WORK</h1></a>
         </div>
-        <div class="navbar">
-            <a href="./links.html"><h1>LINKS</h1></a>
-        </div>
     </header>
     
     <div class="page-program">
         <div class="content">
-            <div class="container">
-                <h2>Currently working on:</h2>
-                <ul>
-                    <li>Studying for summer semester</li>
-                    <li>Electronic circuits & Hardware</li>
-                    <li>Working on Bachelor's thesis</li>
-                </ul>
-            </div>
-
-            <div class="block">
-                <h2>Electronics</h2>
-            </div>
-            Some of my previous projects with electronics
-            <div class="flexbox">
-                <div class="art container">
-                    <video width="300" height="500" controls>
-                        <source src="./resources/content/board/VID_20230114_193803.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                    <p>volume up for this one!</p>
+            <div id="page-header" class="block">
+                <div class="container">
+                    <h1>//--Currently working on--\\</h1>
+                    <ul>
+                        <li>Studying for summer semester</li>
+                        <li>Finishing my Bachelor's thesis</li>
+                        <li>Studing electronic circuits & hardware</li>
+                    </ul>
                 </div>
-                <div class="art container">
-                    <img src="./resources/content/board/IMG_20230114_191630_314.jpg" alt="photo"/>
+                
+            </div>
+
+            <div class="block" id="bp">
+                <div class="block-title">
+                    <h1> //--Bachelor's Thesis--\\ </h1>
+                </div>
+                <div class="project">
+                    <div class="block-desc">
+                        <h2>PID Controller implementation in C++</h2>
+                        In this project I'm programming a PID controller in C++ to run on Arduino UNO. 
+                        The controlled circuit is a simple thermal one with resistor and thermistor
+                        configured as voltage divider to allow reading on voltage.
+                        The current from Arduino is amplified with UN2003A op-amp to warm up the 
+                        resistor and consequently the thermistor. 
+                        For correct modelling and control I use thermal calculations between objects.
+                    </div>
+                    <div class="flexbox block-content">
+                        <div class="art container">
+                            <img src="./resources/content/board/bp_1.jpg" alt="photo"/>
+                            <img src="./resources/content/board/bp_2.jpg" alt="photo"/>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="block">
-                <h2>Robotic arm simulation</h2>
-                In this project I created a python application visualizing robot arm movements in real-time using rotation and translation matrices.
-                <a href="https://github.com/dvdjnt/Roboticky-manipulator">github repo link</a>
-            </div>
+            <div class="block" id="Robotics">
+                <div class="block-title">
+                    <h1>//--Robotics--\\</h1>
+                </div>
 
-            <div class="flexbox">
-                <div class="art container">
-                    <img src="./resources/content/board/ukazka1.png">
-                    <img src="./resources/content/board/ukazka4.png">
-                    <img src="./resources/content/board/ukazka2.png">
-                    <img src="./resources/content/board/ukazka3.png">
+                <div class="project" id="ROS">
+                    <div class="block-desc">
+                        <h2>ROS</h2>
+                        Here I'm working within Linux with ROS 1 and RViz 
+                        to calculate and realize a planned trajectory for a robotic arm for industrial usage
+                    </div>
+                    <div class="flexbox block-content">
+                        <div class="art container">
+                            <video width="1200" height="720" controls>
+                                <source src="./resources/content/board/ros2.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="project" id="python-robot-arm">
+                    <div class="block-desc">
+                        <h2>ROBOTIC ARM MANIPULATION</h2>
+                        In this project I created a python application visualizing robot arm movements in 3D space in  
+                        real-time using rotation and translation matrices with matplot and numpy libraries as a part of my robotics studies
+                        at STU BA <br>
+                        
+                        <a href="https://github.com/dvdjnt/Roboticky-manipulator">github repository link</a>
+                    </div>
+                
+                    <div class="flexbox block-content">
+                        <div class="art container">
+                            <img src="./resources/content/board/rob_1.png">
+                            <img src="./resources/content/board/rob_4.png">
+                            <img src="./resources/content/board/rob_2.png">
+                            <img src="./resources/content/board/rob_3.png">
+                        </div>
+                    </div>
 
                 </div>
-                <div class="art container">
 
+                </div>
+            </div>
+
+            <div class="block" id="Electronics">
+                <div class="block-title">
+                    <h1>//--Electronics--\\</h1>
+                </div>
+                
+                <div class="project" id="elns">
+                    <div class="block-desc">
+                        <h2>LAB</h2>
+                        Hands-on experience in the electronic lab at STU, working with essential electronic 
+                        components and circuits such as amplifiers, filters and rectifiers
+                    </div>
+                    <div class="flexbox block-content">
+                        <div class="art container">
+                            <img src="./resources/content/board/elns_1.jpg" alt="photo"/>
+                        </div>
+                        <div class="art container">
+                            <img src="./resources/content/board/elns_2.jpg" alt="photo"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project" id="home-projects">
+                    <div class="block-desc">
+                        <h2>HOME PROJECTS</h2>
+                        Some of my previous home projects with electronics
+                    </div>
+                    <div class="flexbox block-content">
+                        <div class="art container">
+                            <video width="300" height="500" controls>
+                                <source src="./resources/content/board/elt_vid.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <p>volume up for this one!</p>
+                        </div>
+                        <div class="art container">
+                            <img src="./resources/content/board/elt_1.jpg" alt="photo"/>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -74,6 +146,6 @@
         </div>
     </div>
     <footer>
-        <a href="mailto:contact.itqj1@simplelogin.fr">--contact me!--</a>
+        <a href="mailto:contact.itqj1@simplelogin.fr">//--contact--\\</a>
     </footer>
 </body>
