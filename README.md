@@ -1,2 +1,2 @@
-# work portfolio
-portfolio of work projects
+# Work portfolio
+presentation and description of projects related to study and work
