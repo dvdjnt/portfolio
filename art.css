@@ -124,9 +124,9 @@ header{
     border: solid 3px black;
 }
 .container video {
-    width: 100%;
+    /* width: 100%; */
     max-width: 120vw;
-    height: auto;
+    /* height: auto; */
     max-height: 40vw;
 
 }
