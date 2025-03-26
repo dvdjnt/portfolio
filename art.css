@@ -115,19 +115,22 @@ header{
     /*
     max height/width based on media device
     */
-    width: 100%;
+    width: auto;
     max-width: 50vw;
     max-width: 600px;
     height: auto;
     max-height: 40vw;
-
+    margin: 10px;
     border: solid 3px black;
 }
 .container video {
-    /* width: 100%; */
+    width: auto;
     max-width: 120vw;
-    /* height: auto; */
+    height: auto;
     max-height: 40vw;
+
+    margin: 10px;
+    border: solid 3px black;
 
 }
 .block {
@@ -141,9 +144,6 @@ header{
 }
 .block-desc {
     margin: 10px 20vw 10px;
-}
-.block-content {
-
 }
 h1 {
     color: black;
